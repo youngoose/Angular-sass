@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import './variables';
+@import './mixins';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$primary-color: green;
+
+h1 {
+  color: $primary-color
+}
+
+p {
+  color: $primary-color
+}
+
+
+
+// .mat-tab-group.mat-primary .mat-ink-bar {
+//   background-color: #f69c55;
+// }
+
+// .mat-tab-header, .mat-tab-nav-bar {
+//   margin: auto;
+//   padding: auto;
+// }
+
+// .mat-tab-label {
+//   margin: auto;
+//   padding: auto;
+//   font-size: 16px;
+//   opacity: unset !important;
+//   color: #9E9E9E;
+// }
+
+// .mat-tab-label:nth-child(1) {
+//   color: #424242;
+//   font-size: 1.3em;
+// }
+
+// .mat-tab-label-active{
+//   color: #424242;
+//   font-size: 18px;
+// }
